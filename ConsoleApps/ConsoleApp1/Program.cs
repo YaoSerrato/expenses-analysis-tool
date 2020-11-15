@@ -6,7 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Mars!");
+            string HelloWorldMessage = "Jupiter";
+
+            Console.WriteLine(HelloWorld(HelloWorldMessage));
+        }
+
+        private static string HelloWorld(string message)
+        {
+            return "Hello " + message + "!";
         }
     }
 }
